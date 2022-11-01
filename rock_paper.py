@@ -10,22 +10,22 @@ def choices_both():
 
 def who_win(player, computer):
     if player == computer:
-        print("its a tie!!  better luck next time")
+        print("its a tie!!  better luck next time.")
     elif player == "rock":
         if computer == "paper":
-            return "papar covers the rock, and the computer wins"
+            return "papar covers the rock, and the computer wins."
         else:
-            return "rock smashes the sissors, and you smashes the game"
+            return "rock smashes the sissors, and you smashes the game."
     elif player == "paper":
         if computer == "rock":
-            return "papar covers the rock, and you won the game"
+            return "papar covers the rock, and you won the game."
         else:
-            return "sissors cut the paper, and you losses the game"
+            return "sissors cut the paper, and you losses the game."
     else:
         if computer == "paper":
-            return "sissors cut the paper, and you won the game"
+            return "sissors cut the paper, and you won the game."
         else:
-            return "rock smashes the sissors, and you lost the game"
+            return "rock smashes the sissors, and you lost the game."
 
 
 
